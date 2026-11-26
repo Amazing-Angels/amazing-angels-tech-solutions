@@ -1,3 +1,5 @@
+"use client";
+
 import {
   ArrowRight, ArrowUpRight, Code2, Smartphone, Layers3, Megaphone,
   CheckCircle2, Sparkles, ShieldCheck, Zap, Menu, Globe2, Mail,
