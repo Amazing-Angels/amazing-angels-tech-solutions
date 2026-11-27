@@ -91,15 +91,16 @@ export default function Home() {
 
       <section className="contact section" id="contact">
         <div className="container contact-layout">
-          <div className="contact-copy"><div className="eyebrow"><span className="eyebrow-line"/> GET IN TOUCH</div><h2>Have a challenge?<br/><span className="blue-text">Let’s talk.</span></h2><p>Share a little about your idea, business or project. We’ll take it from there.</p><div className="contact-detail"><span className="contact-icon"><Mail size={19}/></span><div><small>EMAIL</small><b>Use the enquiry form</b><span>We’ll respond using the contact details you provide.</span></div></div><div className="contact-detail"><span className="contact-icon"><Globe2 size={19}/></span><div><small>OPERATING MODEL</small><b>Virtual-first</b><span>Working remotely with clients and collaborators.</span></div></div></div>
-          <form className="contact-form" action="https://formsubmit.co/" method="POST">
+          <div className="contact-copy"><div className="eyebrow"><span className="eyebrow-line"/> GET IN TOUCH</div><h2>Have a challenge?<br/><span className="blue-text">Let’s talk.</span></h2><p>Share a little about your idea, business or project. We’ll take it from there.</p><div className="contact-detail"><span className="contact-icon"><Mail size={19}/></span><div><small>EMAIL</small><b>connect@amazingangelstech.com</b>
+<span>Send us your project enquiries anytime.</span></div></div><div className="contact-detail"><span className="contact-icon"><Globe2 size={19}/></span><div><small>OPERATING MODEL</small><b>Virtual-first</b><span>Working remotely with clients and collaborators.</span></div></div></div>
+          <form className="contact-form" action="https://formsubmit.co/amazingangelstech@gmail.com" method="POST"><input type="hidden" name="_subject" value="New Business Enquiry - Amazing Angels Tech Solutions" />
             <div className="form-top"><span>PROJECT ENQUIRY</span><span className="form-step">LET’S CONNECT <ArrowUpRight size={14}/></span></div>
             <label>Your name<input name="name" placeholder="Enter your name" required/></label>
             <div className="form-row"><label>Email address<input name="email" type="email" placeholder="you@company.com" required/></label><label>Phone (optional)<input name="phone" type="tel" placeholder="+91"/></label></div>
             <label>What do you need help with?<select name="service" defaultValue=""><option value="" disabled>Select a service</option><option>Web Development</option><option>App Development</option><option>Software Solutions</option><option>Digital Marketing</option><option>Something else</option></select></label>
             <label>Tell us about your project<textarea name="message" rows={4} placeholder="A short description of your idea or requirement..." required/></label>
             <p className="form-note">Before launch, connect this form to your business email or preferred form service. Setup instructions are included in the project README.</p>
-            <button className="button button-primary submit-button" type="button" onClick={() => alert("The contact form is a launch-ready layout. Before publishing, connect it to your business email or a form service. See README.md for setup steps.")}>Send enquiry <ArrowRight size={17}/></button>
+            <button className="button button-primary submit-button" type="submit">Send enquiry <ArrowRight size={17}/></button>
           </form>
         </div>
       </section>
